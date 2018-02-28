@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "C:\Users\Futami\Anaconda3\lib\site-packages\spyder\config\user.py", line 111, in _save
+    _write_file(fname)
+  File "C:\Users\Futami\Anaconda3\lib\site-packages\spyder\config\user.py", line 107, in _write_file
+    with open(fname, 'w', encoding='utf-8') as configfile:
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\Futami\\.spyder-py3\\spyder.ini'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Futami\Anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 2989, in main
+    mainwindow = run_spyder(app, options, args)
+  File "C:\Users\Futami\Anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 2891, in run_spyder
+    main = MainWindow(options)
+  File "C:\Users\Futami\Anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 456, in __init__
+    CONF.set('main', 'current_version', __version__)
+  File "C:\Users\Futami\Anaconda3\lib\site-packages\spyder\config\user.py", line 437, in set
+    self._save()
+  File "C:\Users\Futami\Anaconda3\lib\site-packages\spyder\config\user.py", line 121, in _save
+    raise(e)
+  File "C:\Users\Futami\Anaconda3\lib\site-packages\spyder\config\user.py", line 115, in _save
+    os.remove(fname)
+PermissionError: [WinError 5] アクセスが拒否されました。: 'C:\\Users\\Futami\\.spyder-py3\\spyder.ini'
