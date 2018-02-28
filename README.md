@@ -1,6 +1,6 @@
 # GP-and-GPLVM
 
-This repository contains code for GP and GPLVM (including random fourier expansion)
+This repository contains code for Deep GP and Deep GPLVM (including random fourier expansion)
 
 The code is written in python and uses the Theano.
 
